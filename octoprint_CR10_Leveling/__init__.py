@@ -44,7 +44,7 @@ class Cr10_levelingPlugin(octoprint.plugin.AssetPlugin,
                     front_right_x=270, front_right_y=30, back_left_x=30,
                     back_left_y=270, back_right_x=270, back_right_y=270,
                     center_x=150, center_y=150, lower_z=0, upper_z=10,
-                    feed_rate=3600, heat_simultaneously=False, autolevel="")
+                    feed_rate_xy=3600, feed_rate_z=900, heat_simultaneously=False, autolevel="")
 
     def get_template_configs(self):
         return [dict(type="settings", custom_bindings=False)]

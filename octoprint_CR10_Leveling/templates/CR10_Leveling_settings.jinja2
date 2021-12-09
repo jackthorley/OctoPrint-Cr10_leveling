@@ -69,10 +69,16 @@ Email: electr0sheep@electr0sheep.com
 
   <h3>All Controls</h3>
   <div class="control-group">
-    <label class="control-label">Feed Rate (how fast the x/y axes move):</label>
+    <label class="control-label">Feed Rate (X/Y):</label>
     <div class="controls">
-      <input type="number" step="0.1" data-bind="value: settings.plugins.CR10_Leveling.feed_rate">
+      <input type="number" step="100" data-bind="value: settings.plugins.CR10_Leveling.feed_rate_xy">
     </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label">Feed Rate Z:</label>
+    <div class="controls">
+      <input type="number" step="100" data-bind="value: settings.plugins.CR10_Leveling.feed_rate_z">
+  </div>
   </div>
   <div class="control-group">
     <label class="control-label">Lower Z coordinate</label>
@@ -95,13 +101,13 @@ Email: electr0sheep@electr0sheep.com
   <div class="control-group">
     <label class="control-label">X:</label>
     <div class="controls">
-      <input type="number" step="0.1" data-bind="value: settings.plugins.CR10_Leveling.front_left_x">
+      <input type="number" step="10" data-bind="value: settings.plugins.CR10_Leveling.front_left_x">
     </div>
   </div>
   <div class="control-group">
     <label class="control-label">Y:</label>
     <div class="controls">
-      <input type="number" step="0.1" data-bind="value: settings.plugins.CR10_Leveling.front_left_y">
+      <input type="number" step="10" data-bind="value: settings.plugins.CR10_Leveling.front_left_y">
     </div>
   </div>
 
@@ -109,13 +115,13 @@ Email: electr0sheep@electr0sheep.com
   <div class="control-group">
     <label class="control-label">X:</label>
     <div class="controls">
-      <input type="number" step="0.1" data-bind="value: settings.plugins.CR10_Leveling.front_right_x">
+      <input type="number" step="10" data-bind="value: settings.plugins.CR10_Leveling.front_right_x">
     </div>
   </div>
   <div class="control-group">
     <label class="control-label">Y:</label>
     <div class="controls">
-      <input type="number" step="0.1" data-bind="value: settings.plugins.CR10_Leveling.front_right_y">
+      <input type="number" step="10" data-bind="value: settings.plugins.CR10_Leveling.front_right_y">
     </div>
   </div>
 
@@ -123,13 +129,13 @@ Email: electr0sheep@electr0sheep.com
   <div class="control-group">
     <label class="control-label">X:</label>
     <div class="controls">
-      <input type="number" step="0.1" data-bind="value: settings.plugins.CR10_Leveling.back_left_x">
+      <input type="number" step="10" data-bind="value: settings.plugins.CR10_Leveling.back_left_x">
     </div>
   </div>
   <div class="control-group">
     <label class="control-label">Y:</label>
     <div class="controls">
-      <input type="number" step="0.1" data-bind="value: settings.plugins.CR10_Leveling.back_left_y">
+      <input type="number" step="10" data-bind="value: settings.plugins.CR10_Leveling.back_left_y">
     </div>
   </div>
 
@@ -137,13 +143,13 @@ Email: electr0sheep@electr0sheep.com
   <div class="control-group">
     <label class="control-label">X:</label>
     <div class="controls">
-      <input type="number" step="0.1" data-bind="value: settings.plugins.CR10_Leveling.back_right_x">
+      <input type="number" step="10" data-bind="value: settings.plugins.CR10_Leveling.back_right_x">
     </div>
   </div>
   <div class="control-group">
     <label class="control-label">Y:</label>
     <div class="controls">
-      <input type="number" step="0.1" data-bind="value: settings.plugins.CR10_Leveling.back_right_y">
+      <input type="number" step="10" data-bind="value: settings.plugins.CR10_Leveling.back_right_y">
     </div>
   </div>
 
@@ -151,13 +157,13 @@ Email: electr0sheep@electr0sheep.com
   <div class="control-group">
     <label class="control-label">X:</label>
     <div class="controls">
-      <input type="number" step="0.1" data-bind="value: settings.plugins.CR10_Leveling.center_x">
+      <input type="number" step="10" data-bind="value: settings.plugins.CR10_Leveling.center_x">
     </div>
   </div>
   <div class="control-group">
     <label class="control-label">Y:</label>
     <div class="controls">
-      <input type="number" step="0.1" data-bind="value: settings.plugins.CR10_Leveling.center_y">
+      <input type="number" step="10" data-bind="value: settings.plugins.CR10_Leveling.center_y">
     </div>
   </div>
 </form>
