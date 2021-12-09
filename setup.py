@@ -11,10 +11,10 @@ plugin_package = "octoprint_CR10_Leveling"
 
 # The plugin's human readable name. Can be overwritten within OctoPrint's internal data via __plugin_name__ in the
 # plugin module
-plugin_name = "Bed Leveling"
+plugin_name = "Bed Leveling - Customised"
 
 # The plugin's version. Can be overwritten within OctoPrint's internal data via __plugin_version__ in the plugin module
-plugin_version = "2.1.2"
+plugin_version = "2.1.3"
 
 # The plugin's description. Can be overwritten within OctoPrint's internal data via __plugin_description__ in the plugin
 # module
@@ -27,7 +27,7 @@ plugin_author = "lsellens"
 plugin_author_email = "lsellens@gmail.com"
 
 # The plugin's homepage URL. Can be overwritten within OctoPrint's internal data via __plugin_url__ in the plugin module
-plugin_url = "https://github.com/lsellens/OctoPrint-Cr10_leveling"
+plugin_url = "https://github.com/jackthorley/OctoPrint-Cr10_leveling"
 
 # The plugin's license. Can be overwritten within OctoPrint's internal data via __plugin_license__ in the plugin module
 plugin_license = "AGPLv3"
