@@ -58,14 +58,14 @@ $(function () {
               width: "2",
               commands: [
                 "G90",
-                "G0 Z" + settings.upper_z() + "F" + settings.feed_rate_z(),
+                "G0 Z" + settings.upper_z() + " F" + settings.feed_rate_z(),
                 "G0 X" +
                   settings.back_left_x() +
-                  "Y" +
+                  " Y" +
                   settings.back_left_y() +
-                  "F" +
+                  " F" +
                   settings.feed_rate_xy(),
-                "G0 Z" + settings.lower_z() + "F" + settings.feed_rate_z(),
+                "G0 Z" + settings.lower_z() + " F" + settings.feed_rate_z(),
               ],
               customClass: "btn",
               additionalClasses: "nowrap",
@@ -75,14 +75,14 @@ $(function () {
               width: "7",
               commands: [
                 "G90",
-                "G0 Z" + settings.upper_z() + "F" + settings.feed_rate_z(),
+                "G0 Z" + settings.upper_z() + " F" + settings.feed_rate_z(),
                 "G0 X" +
                   settings.back_right_x() +
-                  "Y" +
+                  " Y" +
                   settings.back_right_y() +
-                  "F" +
+                  " F" +
                   settings.feed_rate_xy(),
-                "G0 Z" + settings.lower_z() + "F" + settings.feed_rate_z(),
+                "G0 Z" + settings.lower_z() + " F" + settings.feed_rate_z(),
               ],
               customClass: "btn",
               additionalClasses: "nowrap",
@@ -93,14 +93,14 @@ $(function () {
               width: "9",
               commands: [
                 "G90",
-                "G0 Z" + settings.upper_z() + "F" + settings.feed_rate_z(),
+                "G0 Z" + settings.upper_z() + " F" + settings.feed_rate_z(),
                 "G0 X" +
                   settings.center_x() +
-                  "Y" +
+                  " Y" +
                   settings.center_y() +
-                  "F" +
+                  " F" +
                   settings.feed_rate_xy(),
-                "G0 Z" + settings.lower_z() + "F" + settings.feed_rate_z(),
+                "G0 Z" + settings.lower_z() + " F" + settings.feed_rate_z(),
               ],
               customClass: "btn",
               additionalClasses: "nowrap",
@@ -111,14 +111,14 @@ $(function () {
               width: "2",
               commands: [
                 "G90",
-                "G0 Z" + settings.upper_z() + "F" + settings.feed_rate_z(),
+                "G0 Z" + settings.upper_z() + " F" + settings.feed_rate_z(),
                 "G0 X" +
                   settings.front_left_x() +
-                  "Y" +
+                  " Y" +
                   settings.front_left_y() +
-                  "F" +
+                  " F" +
                   settings.feed_rate_xy(),
-                "G0 Z" + settings.lower_z() + "F" + settings.feed_rate_z(),
+                "G0 Z" + settings.lower_z() + " F" + settings.feed_rate_z(),
               ],
               customClass: "btn",
               additionalClasses: "nowrap",
@@ -128,14 +128,14 @@ $(function () {
               width: "7",
               commands: [
                 "G90",
-                "G0 Z" + settings.upper_z() + "F" + settings.feed_rate_z(),
+                "G0 Z" + settings.upper_z() + " F" + settings.feed_rate_z(),
                 "G0 X" +
                   settings.front_right_x() +
-                  "Y" +
+                  " Y" +
                   settings.front_right_y() +
-                  "F" +
+                  " F" +
                   settings.feed_rate_xy(),
-                "G0 Z" + settings.lower_z() + "F" + settings.feed_rate_z(),
+                "G0 Z" + settings.lower_z() + " F" + settings.feed_rate_z(),
               ],
               customClass: "btn",
               additionalClasses: "nowrap",
